@@ -4,7 +4,7 @@ A backend-focused Quiz Application built using Java and Spring Boot, designed to
 
 🚀 Features
 
-Category-based quiz creation with randomized question selection
+Category-based quiz creation with randomized question selection<br>
 RESTful APIs for managing quizzes and questions
 Automatic database schema generation using Hibernate
 Optimized SQL queries with PostgreSQL
