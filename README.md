@@ -5,21 +5,21 @@ A backend-focused Quiz Application built using Java and Spring Boot, designed to
 🚀 Features
 
 Category-based quiz creation with randomized question selection<br>
-RESTful APIs for managing quizzes and questions
-Automatic database schema generation using Hibernate
-Optimized SQL queries with PostgreSQL
-Robust transaction handling and ORM best practices
+RESTful APIs for managing quizzes and questions<br>
+Automatic database schema generation using Hibernate<br>
+Optimized SQL queries with PostgreSQL<br>
+Robust transaction handling and ORM best practices<br><br>
 
-🛠 Tech Stack
+🛠 Tech Stack<br><br>
 
-Java
-Spring Boot
-Spring Data JPA / Hibernate
-PostgreSQL
-REST APIs
+Java<br>
+Spring Boot<br>
+Spring Data JPA / Hibernate<br>
+PostgreSQL<br>
+REST APIs<br><br>
 
-📌 Highlights
+📌 Highlights<br><br>
 
-Clean layered architecture
-Production-style error handling
-Easily extensible for authentication and user attempts
+Clean layered architecture<br>
+Production-style error handling<br>
+Easily extensible for authentication and user attempts<br>
