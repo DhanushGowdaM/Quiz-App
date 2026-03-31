@@ -27,10 +27,6 @@ public class QuizController {
         return quizService.getQuizQuestions(id);
     }
 
-    @GetMapping("hello")
-    public String sayHello(){
-        return "Hello";
-    }
 
     @PostMapping("submit/{id}")
     public ResponseEntity<Integer> quizScore(@PathVariable Integer id, @RequestBody List<Response> response){
