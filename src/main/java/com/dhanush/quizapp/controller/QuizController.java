@@ -27,6 +27,11 @@ public class QuizController {
         return quizService.getQuizQuestions(id);
     }
 
+    @GetMapping("cheese")
+    public String sayCheese(){
+        return "Cheese";
+    }
+
     @PostMapping("submit/{id}")
     public ResponseEntity<Integer> quizScore(@PathVariable Integer id, @RequestBody List<Response> response){
         return quizService.calculateResult(id, response);
